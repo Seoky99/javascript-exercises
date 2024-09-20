@@ -1,4 +1,8 @@
-const convertToCelsius = function() {
+const convertToCelsius = function(initialC) {
+
+  converted = (initialC * 9/5 + 32);
+  return Number(converted.toFixed(1));
+
 };
 
 const convertToFahrenheit = function() {
